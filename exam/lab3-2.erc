@@ -2,7 +2,7 @@ P-CAD Electrical Rules Check Report
 
 ======================================================================
 
-C:\Users\Артур\Desktop\Новая папка\Новая папка\lab3-2.erc:
+C:\Users\Артур\Desktop\Новая папка\exam\lab3-2.erc:
 
 ERC Report Options:
 -------------------
@@ -23,10 +23,9 @@ ERC Errors:
 
 SINGLE NODE NETS:
 
-Error 1 -- Net NET00026 is a single node net
 
 0 warning(s) detected.
-1 error(s) detected.
+0 error(s) detected.
 
 NO NODE NETS:
 
@@ -60,42 +59,34 @@ Warning 21 -- Net NET00022 has no input pins
 Warning 22 -- Net NET00022 has no output pins
 Warning 23 -- Net NET00023 has no input pins
 Warning 24 -- Net NET00023 has no output pins
+Warning 25 -- Net NET00024 has no input pins
 
 ----------------------------------------------------------------------
 
-16-Jun-20  12:40                                            Page    1
+16-Jun-20  13:18                                            Page    1
 
 P-CAD Electrical Rules Check Report
 
 ======================================================================
 
-Warning 25 -- Net NET00024 has no input pins
 Warning 26 -- Net NET00024 has no output pins
-Warning 27 -- Net NET00026 has no input pins
-Warning 28 -- Net NET00026 has no output pins
-Warning 29 -- Net NET00027 has no input pins
-Warning 30 -- Net NET00027 has no output pins
+Warning 27 -- Net NET00000 has no input pins
+Warning 28 -- Net NET00000 has no output pins
 
-30 warning(s) detected.
+28 warning(s) detected.
 0 error(s) detected.
 
 UNCONNECTED PINS:
 
-Warning 31 -- Unconnected pin VT1-3 on sheet:Sheet1 at mm (363.220,172.720)
 
-1 warning(s) detected.
+0 warning(s) detected.
 0 error(s) detected.
 
 UNCONNECTED WIRES:
 
-Error 2 -- Unconnected wire end on sheet:Sheet1 at mm (180.340,109.220)
-Error 3 -- Unconnected wire end on sheet:Sheet1 at mm (187.960,162.560)
-Error 4 -- Unconnected wire end on sheet:Sheet1 at mm (363.220, 71.120)
-Error 5 -- Unconnected wire end on sheet:Sheet1 at mm (243.840,119.380)
-Error 6 -- Unconnected wire end on sheet:Sheet1 at mm (289.560,157.480)
 
 0 warning(s) detected.
-5 error(s) detected.
+0 error(s) detected.
 
 BUS/NET RULES:
 
@@ -127,33 +118,33 @@ Hierarchy is resolved.
 ERC Summary:
 ------------
 
-----------------------------------------------------------------------
-
-16-Jun-20  12:40                                            Page    2
-
-P-CAD Electrical Rules Check Report
-
-======================================================================
-
-
 Single Node:
-	Errors:         1
+	Errors:         0
 	Warnings:       0
 	Ignored Errors: 0
 No Node:
 	Errors:         0
 	Warnings:       0
 	Ignored Errors: 0
+
+----------------------------------------------------------------------
+
+16-Jun-20  13:18                                            Page    2
+
+P-CAD Electrical Rules Check Report
+
+======================================================================
+
 Electrical:
 	Errors:         0
-	Warnings:       30
+	Warnings:       28
 	Ignored Errors: 0
 Unconnected Pin:
 	Errors:         0
-	Warnings:       1
+	Warnings:       0
 	Ignored Errors: 0
 Unconnected Wire:
-	Errors:         5
+	Errors:         0
 	Warnings:       0
 	Ignored Errors: 0
 Bus/Net:
@@ -192,7 +183,16 @@ Hierarchy:
 
 
 
+
+
+
+
+
+
+
+
+
 ----------------------------------------------------------------------
 
-16-Jun-20  12:40                                            Page    3
+16-Jun-20  13:18                                            Page    3
 
